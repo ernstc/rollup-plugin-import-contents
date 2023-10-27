@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+.inverse {
+  background-color: white;
+  color: white;
+}

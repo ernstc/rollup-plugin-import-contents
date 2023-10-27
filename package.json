@@ -1,0 +1,64 @@
+{
+    "name": "rollup-plugin-import-contents",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "A Rollup plugin to import content as strings like CSS, LESS and Fonts",
+    "main": "dist/plugin.cjs",
+    "module": "dist/plugin.js",
+    "types": "types/plugin.d.ts",
+    "engines": {
+        "node": ">=16"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "test": "mocha test/*.js",
+        "pretest": "npm run build"
+    },
+    "keywords": [
+        "rollup",
+        "rollup-plugin",
+        "css",
+        "less",
+        "font",
+        "import",
+        "modules"
+    ],
+    "files": [
+        "dist",
+        "types"
+    ],
+    "exports": {
+        ".": {
+            "types": "./types/plugin.d.ts",
+            "import": "./dist/plugin.js",
+            "require": "./dist/plugin.cjs"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ernstc/rollup-plugin-import-contents.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ernstc/rollup-plugin-import-contents/issues"
+    },
+    "homepage": "https://github.com/ernstc/rollup-plugin-import-contents#readme",
+    "author": "Ernesto Cianciotta <ernesto.cianciotta@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "assert": "^2.1.0",
+        "mocha": "^10.2.0",
+        "rollup": "^4.1.4",
+        "@rollup/plugin-node-resolve": "^15.2.3"
+    },
+    "dependencies": {
+        "@rollup/pluginutils": "^5.0.5",
+        "less": "^4.2.0",
+        "sass": "^1.69.5",
+        "postcss": "^8.3.6",
+        "cssnano": "^6.0.1"
+    },
+    "peerDependencies": {
+        "rollup": "^3.x.x || ^4.x.x",
+        "less": "^4.x.x"
+    }
+}
