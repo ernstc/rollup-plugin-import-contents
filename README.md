@@ -1,8 +1,8 @@
-# rollup-import-contents
+# rollup-plugin-import-contents
 A Rollup plugin to import content as strings like CSS, LESS and Fonts.
 
-![Actions](https://github.com/ernstc/rollup-import-contents/workflows/build/badge.svg)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ernstc/rollup-import-contents/blob/master/LICENSE)
+![Actions](https://github.com/ernstc/rollup-plugin-import-contents/workflows/build/badge.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ernstc/rollup-plugin-import-contents/blob/master/LICENSE)
 
 
 ---
@@ -11,7 +11,7 @@ A Rollup plugin to import content as strings like CSS, LESS and Fonts.
 
 `rollup.config.mjs`
 ```js
-import importContents from "rollup-import-contents";
+import importContents from "rollup-plugin-import-contents";
 
 export default {
     input: "index.js",
@@ -88,7 +88,7 @@ With **Web Component** frameworks, its useful to be able to import the css for c
 
 ## Reporting Issues
 
-If you are having trouble getting something to work with this plugin or run into any problems, you can create a new [Issue](https://github.com/ernstc/rollup-import-contents/issues).
+If you are having trouble getting something to work with this plugin or run into any problems, you can create a new [Issue](https://github.com/ernstc/rollup-plugin-import-contents/issues).
 
 If this plugin does not fit your needs or is missing a feature you would like to see, let us know! We would greatly appreciate your feedback on it.
 
@@ -96,4 +96,4 @@ If this plugin does not fit your needs or is missing a feature you would like to
 
 ## License
 
-rollup-import-contents is licensed under the terms of the [**MIT**](https://github.com/ernstc/rollup-import-contents/blob/master/LICENSE) license.
+rollup-plugin-import-contents is licensed under the terms of the [**MIT**](https://github.com/ernstc/rollup-plugin-import-contents/blob/master/LICENSE) license.
