@@ -2,6 +2,8 @@
 A Rollup plugin to import content as strings like CSS, LESS and Fonts.
 
 ![Actions](https://github.com/ernstc/rollup-plugin-import-contents/workflows/build/badge.svg)
+![npm](https://img.shields.io/npm/v/rollup-plugin-import-contents)
+![npm](https://img.shields.io/npm/dt/rollup-plugin-import-contents)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ernstc/rollup-plugin-import-contents/blob/master/LICENSE)
 
 
